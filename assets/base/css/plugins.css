@@ -384,8 +384,8 @@ label.control-label {
 
 .btn-primary {
   color: #ffffff;
-  background: #5e9cd1;
-  border-color: #5e9cd1;
+  background: #00475E;
+  border-color: #00475E;
 }
 .btn-primary.btn-no-focus:focus, .btn-primary.btn-no-focus.focus {
   color: #ffffff;
@@ -394,8 +394,8 @@ label.control-label {
 }
 .btn-primary.btn-no-focus:hover, .btn-primary:hover, .btn-primary.btn-no-focus:active, .btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle {
   color: #ffffff;
-  background: #3883c4;
-  border-color: #3883c4;
+  background: #066F87;
+  border-color: #066F87;
 }
 .btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle {
   background-image: none;
