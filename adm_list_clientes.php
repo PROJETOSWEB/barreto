@@ -53,22 +53,21 @@ Follow: www.twitter.com/themehats
 <!-- END: HEADER -->
 <!-- END: LAYOUT/HEADERS/HEADER-1 -->
 
-<!-- BEGIN: PAGE CONTAINER --><div class="c-layout-page">	<!-- BEGIN: LAYOUT/BREADCRUMBS/BREADCRUMBS-1 -->	<div class="c-layout-breadcrumbs-1 c-fonts-uppercase c-fonts-bold">		<div class="container">			<div class="c-page-title c-pull-left">				<h3 class="c-font-uppercase c-font-bold" style="color: #BCBEC0;">Área administrtiva</h3>			</div>			<ul class="c-page-breadcrumbs c-theme-nav c-pull-right c-fonts-regular">				<li>				Olá Thiago Maneschy				</li>			</ul>		</div>	</div>	<!-- END: LAYOUT/BREADCRUMBS/BREADCRUMBS-1 -->			<!-- BEGIN: PAGE CONTENT -->		<!-- BEGIN: CONTENT/CONTACT/FEEDBACK-1 -->	<div class="c-content-box c-size-md c-bg-white">		<div class="container">			<div class="c-content-title-1">				<div class="c-line-center c-theme-bg">				</div>			</div>															<div class="c-content-panel">			
+<!-- BEGIN: PAGE CONTAINER --><div class="c-layout-page">	<!-- BEGIN: LAYOUT/BREADCRUMBS/BREADCRUMBS-1 -->	<div class="c-layout-breadcrumbs-1 c-fonts-uppercase c-fonts-bold">		<div class="container">			<div class="c-page-title c-pull-left">				<h3 class="c-font-uppercase c-font-bold" style="color: #BCBEC0;">Área administrativa</h3>			</div>			<ul class="c-page-breadcrumbs c-theme-nav c-pull-right c-fonts-regular">				<li>				Olá Thiago Maneschy				</li>			</ul>		</div>	</div>	<!-- END: LAYOUT/BREADCRUMBS/BREADCRUMBS-1 -->			<!-- BEGIN: PAGE CONTENT -->		<!-- BEGIN: CONTENT/CONTACT/FEEDBACK-1 -->	<div class="c-content-box c-size-md c-bg-white">		<div class="container">			<div class="c-content-title-1">				<div class="c-line-center c-theme-bg">				</div>			</div>															<div class="c-content-panel">			
 					<div class="c-body">
 						<p>
 							<a href="adm_list_empreendimentos.php" class="btn c-theme-btn c-btn-border-2x c-btn-square"><i class="glyphicon glyphicon-tower"></i> EMPREENDIMENTOS</a>
 							<a href="#" class="btn c-theme-btn"><i class="fa fa-group"></i> CLIENTES</a>
-							<a href="adm_banner.php" class="btn c-theme-btn c-btn-border-2x c-btn-square"><i class="fa fa-image"></i> BANNER</a>
 						</p>
 					</div>				<hr/>								<div class="c-body">
-				<a href="javascript:;" data-toggle="modal" data-target="#add_empreendimento"  class="btn btn-primary btn-xs" type="button"><i class="fa fa-group"></i></i> adicionar clientes</a>
+				<a href="javascript:;" data-toggle="modal" data-target="#add_cliente"  class="btn btn-primary btn-xs" type="button"><i class="fa fa-group"></i></i> adicionar clientes</a>
 				<br/>				<br/>					<div class="row">						<div class="col-md-12">							<table class="table table-hover">							<thead>							<tr>								<th>								</th>								<th>									NOME DO CLIENTE								</th>
 								<th style="text-align: center;">
 									TELEFONE
 								</th>
 								<th style="text-align: center;">
 									EMPREENDIMENTO
-								</th>								<th style="text-align: center;">									DATA								</th>								<th style="text-align: center;">									EDITAR								</th>								<th style="text-align: center;">									EXCLUIR								</th>							</tr>							</thead>							<tbody>							<tr>								<th scope="row">									1								</th>								<td>									<a href="#">Fulano de tal</a>								</td>
+								</th>								<th style="text-align: center;">									DATA								</th>								<th style="text-align: center;">									EDITAR								</th>								<th style="text-align: center;">									EXCLUIR								</th>							</tr>							</thead>							<tbody>							<tr>								<th scope="row">									1								</th>								<td>									<a href="adm_cliente_item.php">Fulano de tal</a>								</td>
 								<td style="text-align: center;">
 									(92) 98282-9292
 								</td>
@@ -82,7 +81,7 @@ Follow: www.twitter.com/themehats
 									2
 								</th>
 								<td>
-									<a href="#">Beltrano da Silva</a>
+									<a href="adm_cliente_item.php">Beltrano da Silva</a>
 								</td>
 								<td style="text-align: center;">
 									(92) 98282-9292
@@ -104,7 +103,7 @@ Follow: www.twitter.com/themehats
 									3
 								</th>
 								<td>
-									<a href="#">Cintia Almenida</a>
+									<a href="adm_cliente_item.php">Cintia Almenida</a>
 								</td>
 								<td style="text-align: center;">
 									(92) 98282-9292
@@ -126,7 +125,7 @@ Follow: www.twitter.com/themehats
 									4
 								</th>
 								<td>
-									<a href="#">João Alberto</a>
+									<a href="adm_cliente_item.php">João Alberto</a>
 								</td>
 								<td style="text-align: center;">
 									(92) 98282-9292
@@ -218,7 +217,7 @@ Follow: www.twitter.com/themehats
 
 
 <!-- FORMULARIO ADICIONAR EMPREENDIMENTO -->
-<div class="modal fade c-content-login-form" id="add_empreendimento" role="dialog">
+<div class="modal fade c-content-login-form" id="add_cliente" role="dialog">
 	<div class="modal-dialog">
 		<div class="modal-content c-square">
 			<div class="modal-header c-no-border">
@@ -237,10 +236,10 @@ Follow: www.twitter.com/themehats
 						<input type="email" class="form-control input-lg c-square" id="signup-username" placeholder="email-do cliente">
 					</div>
 					<div class="form-group">
-						<input type="email" class="form-control input-lg c-square" id="signup-fullname" placeholder="telefone">
+						<input type="number" class="form-control input-lg c-square" id="signup-fullname" placeholder="telefone">
 					</div>
 					<div class="form-group">
-						<input type="email" class="form-control input-lg c-square" id="signup-fullname" placeholder="numero do contrato">
+						<input type="number" class="form-control input-lg c-square" id="signup-fullname" placeholder="numero do contrato">
 					</div>
 					<div class="form-group">
 						<input type="password" class="form-control input-lg c-square" id="signup-fullname" placeholder="escolha uma senha para o cliente">
@@ -264,5 +263,5 @@ Follow: www.twitter.com/themehats
 		</div>
 	</div>
 </div>
-<!-- // FORMULARIO ADICIONAR EMPREENDIMENTO -->
+<!-- // FORMULARIO ADICIONAR EMPREENDIMENTO --><!-- FORMULARIO ADICIONAR EMPREENDIMENTO --><div class="modal fade c-content-login-form" id="edit_cliente" role="dialog">	<div class="modal-dialog">		<div class="modal-content c-square">			<div class="modal-header c-no-border">				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>			</div>			<div class="modal-body">				<h3 class="c-font-24  c-font-bold c-font-blue">EDITAR CLIENTES</h3>				<p>					Atualixe as informações do cliente				</p>				<form>					<div class="form-group">						<input type="text" class="form-control input-lg c-square" id="signup-email" placeholder="Nome do cliente">					</div>					<div class="form-group">						<input type="email" class="form-control input-lg c-square" id="signup-username" placeholder="email-do cliente">					</div>					<div class="form-group">						<input type="number" class="form-control input-lg c-square" id="signup-fullname" placeholder="telefone">					</div>					<div class="form-group">						<input type="number" class="form-control input-lg c-square" id="signup-fullname" placeholder="numero do contrato">					</div>					<div class="form-group">						<input type="password" class="form-control input-lg c-square" id="signup-fullname" placeholder="escolha uma senha para o cliente">					</div>					<div class="form-group">						<input type="password" class="form-control input-lg c-square" id="signup-fullname" placeholder="confirme a senha">					</div>					<div class="form-group">						<select class="form-control input-lg c-square" id="signup-country">							<option value="1">ESCOLHA O EMPREENDIMENTO</option>							<option value="1">• • • • • • • • • • • • •</option>							<option value="1">Villa Floresta I</option>							<option value="1">Villa Floresta II</option>						</select>					</div>					<div class="form-group">						<button type="submit" class="btn c-theme-btn btn-md c-btn-uppercase c-btn-bold c-btn-square c-btn-login">atualizar</button>					</div>				</form>			</div>		</div>	</div></div><!-- // FORMULARIO ADICIONAR EMPREENDIMENTO -->
 

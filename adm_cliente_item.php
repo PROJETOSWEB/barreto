@@ -53,22 +53,7 @@ Follow: www.twitter.com/themehats
 <!-- END: HEADER -->
 <!-- END: LAYOUT/HEADERS/HEADER-1 -->
 
-<!-- BEGIN: PAGE CONTAINER --><div class="c-layout-page">	<!-- BEGIN: LAYOUT/BREADCRUMBS/BREADCRUMBS-1 -->	<div class="c-layout-breadcrumbs-1 c-fonts-uppercase c-fonts-bold">		<div class="container">			<div class="c-page-title c-pull-left">				<h3 class="c-font-uppercase c-font-bold" style="color: #BCBEC0;">Área administrtiva</h3>			</div>			<ul class="c-page-breadcrumbs c-theme-nav c-pull-right c-fonts-regular">				<li>				Olá Thiago Maneschy				</li>			</ul>		</div>	</div>	<!-- END: LAYOUT/BREADCRUMBS/BREADCRUMBS-1 -->			<!-- BEGIN: PAGE CONTENT -->		<!-- BEGIN: CONTENT/CONTACT/FEEDBACK-1 -->	<div class="c-content-box c-size-md c-bg-white">		<div class="container">			<div class="c-content-title-1">				<div class="c-line-center c-theme-bg">				</div>			</div>															<div class="c-content-panel">			
-					<div class="c-body">
-						<p>
-							<a href="adm_list_empreendimentos.php" class="btn c-theme-btn c-btn-border-2x c-btn-square"><i class="glyphicon glyphicon-tower"></i> EMPREENDIMENTOS</a>
-							<a href="adm_list_clientes.php" class="btn c-theme-btn c-btn-border-2x c-btn-square"><i class="fa fa-group"></i> CLIENTES</a>
-							<a href="#" class="btn c-theme-btn"><i class="fa fa-image"></i> BANNER</a>
-						</p>
-					</div>				<hr/>								<div class="c-body">
-				<a href="javascript:;" data-toggle="modal" data-target="#add_empreendimento"  class="btn btn-primary btn-xs" type="button"><i class="fa fa-image"></i> alterar banner</a>
-				<br/>				<br/>					<div class="row">						<div class="col-md-8">
-							<ul class="c-content-list-1 c-theme c-separator-dot c-square">
-								<img src="img/banner_adm.png" alt="" />
-							</ul>
-						</div>					</div>				</div>			</div>					</div>													</div>	<!-- END: CONTENT/CONTACT/FEEDBACK-1 -->
-	
-				<!-- END: PAGE CONTENT --></div><!-- END: PAGE CONTAINER -->
+<!-- BEGIN: PAGE CONTAINER --><div class="c-layout-page">	<!-- BEGIN: LAYOUT/BREADCRUMBS/BREADCRUMBS-1 -->	<div class="c-layout-breadcrumbs-1 c-fonts-uppercase c-fonts-bold">		<div class="container">			<div class="c-page-title c-pull-left">				<h3 class="c-font-uppercase c-font-bold" style="color: #BCBEC0;">Área administrativa</h3>			</div>			<ul class="c-page-breadcrumbs c-theme-nav c-pull-right c-fonts-regular">				<li>				Olá Thiago Maneschy				</li>			</ul>		</div>	</div>	<!-- END: LAYOUT/BREADCRUMBS/BREADCRUMBS-1 -->			<!-- BEGIN: PAGE CONTENT -->		<!-- BEGIN: CONTENT/CONTACT/FEEDBACK-1 -->	<div class="c-content-box c-size-md c-bg-white">		<div class="container">			<div class="c-content-title-1">				<h3 class="c-center c-font-dark c-font-uppercase">acompanhe seu investimento</h3>				<div class="c-line-center c-theme-bg">				</div>			</div>												<div class="c-content-panel">							<div class="c-body">					<p>						<a href="javascript:;" data-toggle="modal" data-target="#add_documento_cliente" class="btn btn-primary btn-xs"><i class="fa fa-file-pdf-o"></i> Adicionar documentos somente para este cliente</a>						<a href="adm_list_clientes.php" class="btn c-theme-btn btn-primary btn-xs"><i class="fa fa-mail-reply"></i> voltar para lista</a>					</p>				</div>								<div class="c-body">								<h3><i class="fa fa-folder-open"></i> Lista de documento para conferência</h3>				<br/>					<div class="row">						<div class="col-md-12">							<table class="table table-hover">							<thead>							<tr>								<th>									<i class="fa fa-file-pdf-o"></i>								</th>								<th>									DOCUMENTO								</th>								<th style="text-align: center;">									DATA								</th>								<th style="text-align: center;">									ASSUNTO								</th>								<th style="text-align: center;">									BAIXAR								</th>								<th style="text-align: center;">									EXCLUIR								</th>							</tr>							</thead>							<tbody>							<tr>								<th scope="row">									1								</th>								<td>									Planilha de custo								</td>								<td style="text-align: center;">									07-11-2015								</td>								<td style="text-align: center;">									Financeiro								</td>								<td style="text-align: center;">									<a href="#"><span class="glyphicon glyphicon-cloud-download"> </span></a>								</td>								<td style="text-align: center;">									<a href="#"><i class="fa fa-close"> </i></a>								</td>							</tr>							<tr>								<th scope="row">									2								</th>								<td>									Cronograma atualizado								</td>								<td style="text-align: center;">									07-11-2015								</td>								<td style="text-align: center;">									Área de lazer								</td>								<td style="text-align: center;">									<a href="#"><span class="glyphicon glyphicon-cloud-download"> </span></a>								</td>								<td style="text-align: center;">									<a href="#"><i class="fa fa-close"> </i></a>								</td>							</tr>							<tr>								<th scope="row">									3								</th>								<td>									Informativo 0134								</td>								<td style="text-align: center;">									07-11-2015								</td>								<td style="text-align: center;">									Cronograma								</td>								<td style="text-align: center;">									<a href="#"><span class="glyphicon glyphicon-cloud-download"> </span></a>								</td>								<td style="text-align: center;">									<a href="#"><i class="fa fa-close"> </i></a>								</td>							</tr>														<tr>								<th scope="row">									4								</th>								<td>									2ª via boleto								</td>								<td style="text-align: center;">									07-11-2015								</td>								<td style="text-align: center;">									financiero								</td>								<td style="text-align: center;">									<a href="#"><span class="glyphicon glyphicon-cloud-download"> </span></a>								</td>								<td style="text-align: center;">									<a href="#"><i class="fa fa-close"> </i></a>								</td>							</tr>																					</tbody>							</table>						</div>					</div>				</div>			</div>					</div>													</div>	<!-- END: CONTENT/CONTACT/FEEDBACK-1 -->			<!-- END: PAGE CONTENT --></div><!-- END: PAGE CONTAINER -->
 <!-- BEGIN: LAYOUT/FOOTERS/FOOTER-5 -->
 <a name="footer"></a>
 <?php include './footer_barreto.php'; ?>
@@ -137,55 +122,4 @@ Follow: www.twitter.com/themehats
 <!-- END: THEME SCRIPTS -->
 <!-- END: LAYOUT/BASE/BOTTOM -->
 </body>
-</html>
-
-
-<!-- FORMULARIO ADICIONAR EMPREENDIMENTO -->
-<div class="modal fade c-content-login-form" id="add_empreendimento" role="dialog">
-	<div class="modal-dialog">
-		<div class="modal-content c-square">
-			<div class="modal-header c-no-border">
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-			</div>
-			<div class="modal-body">
-				<h3 class="c-font-24  c-font-bold c-font-blue">ADICIONAR CLIENTES</h3>
-				<p>
-					Por favor, preencha corretamente os dados para incluir um cliente ao sistema
-				</p>
-				<form>
-					<div class="form-group">
-						<input type="text" class="form-control input-lg c-square" id="signup-email" placeholder="Nome do cliente">
-					</div>
-					<div class="form-group">
-						<input type="email" class="form-control input-lg c-square" id="signup-username" placeholder="email-do cliente">
-					</div>
-					<div class="form-group">
-						<input type="email" class="form-control input-lg c-square" id="signup-fullname" placeholder="telefone">
-					</div>
-					<div class="form-group">
-						<input type="email" class="form-control input-lg c-square" id="signup-fullname" placeholder="numero do contrato">
-					</div>
-					<div class="form-group">
-						<input type="password" class="form-control input-lg c-square" id="signup-fullname" placeholder="escolha uma senha para o cliente">
-					</div>
-					<div class="form-group">
-						<input type="password" class="form-control input-lg c-square" id="signup-fullname" placeholder="confirme a senha">
-					</div>
-					<div class="form-group">
-						<select class="form-control input-lg c-square" id="signup-country">
-							<option value="1">ESCOLHA O EMPREENDIMENTO</option>
-							<option value="1">• • • • • • • • • • • • •</option>
-							<option value="1">Villa Floresta I</option>
-							<option value="1">Villa Floresta II</option>
-						</select>
-					</div>
-					<div class="form-group">
-						<button type="submit" class="btn c-theme-btn btn-md c-btn-uppercase c-btn-bold c-btn-square c-btn-login">cadastrar</button>
-					</div>
-				</form>
-			</div>
-		</div>
-	</div>
-</div>
-<!-- // FORMULARIO ADICIONAR EMPREENDIMENTO -->
-
+</html><!-- FORMULARIO ADICIONAR DOCUMENTO --><div class="modal fade c-content-login-form" id="add_documento_cliente" role="dialog">	<div class="modal-dialog">		<div class="modal-content c-square">			<div class="modal-header c-no-border">				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>			</div>			<div class="modal-body">				<h3 class="c-font-24  c-font-bold c-font-blue">ADICIONAR DOCUMENTOS • CLIENTE INDIVIDUAL</h3>				<p>					Adicione documentos somente para este cliente				</p>				<form>					<div class="form-group">						<input type="text" class="form-control input-lg c-square" id="signup-email" placeholder="Título do documento">					</div>					<div class="form-group">						<input type="text" class="form-control input-lg c-square" id="signup-username" placeholder="assunto">					</div>					<div class="form-group">						<input type="datetime" class="form-control input-lg c-square" id="signup-fullname" placeholder="data">					</div>					<div class="form-group">						<input type="file" class="form-control input-lg c-square" id="signup-fullname" >					</div>										<div class="form-group">						<button type="submit" class="btn c-theme-btn btn-md c-btn-uppercase c-btn-bold c-btn-square c-btn-login">cadastrar</button>					</div>				</form>			</div>		</div>	</div></div><!-- // FORMULARIO ADICIONAR DOCUMENTO -->

@@ -53,21 +53,20 @@ Follow: www.twitter.com/themehats
 <!-- END: HEADER -->
 <!-- END: LAYOUT/HEADERS/HEADER-1 -->
 
-<!-- BEGIN: PAGE CONTAINER --><div class="c-layout-page">	<!-- BEGIN: LAYOUT/BREADCRUMBS/BREADCRUMBS-1 -->	<div class="c-layout-breadcrumbs-1 c-fonts-uppercase c-fonts-bold">		<div class="container">			<div class="c-page-title c-pull-left">				<h3 class="c-font-uppercase c-font-bold" style="color: #BCBEC0;">Área administrtiva</h3>			</div>			<ul class="c-page-breadcrumbs c-theme-nav c-pull-right c-fonts-regular">				<li>				Olá Thiago Maneschy				</li>			</ul>		</div>	</div>	<!-- END: LAYOUT/BREADCRUMBS/BREADCRUMBS-1 -->			<!-- BEGIN: PAGE CONTENT -->		<!-- BEGIN: CONTENT/CONTACT/FEEDBACK-1 -->	<div class="c-content-box c-size-md c-bg-white">		<div class="container">			<div class="c-content-title-1">				<div class="c-line-center c-theme-bg">				</div>			</div>															<div class="c-content-panel">			
+<!-- BEGIN: PAGE CONTAINER --><div class="c-layout-page">	<!-- BEGIN: LAYOUT/BREADCRUMBS/BREADCRUMBS-1 -->	<div class="c-layout-breadcrumbs-1 c-fonts-uppercase c-fonts-bold">		<div class="container">			<div class="c-page-title c-pull-left">				<h3 class="c-font-uppercase c-font-bold" style="color: #BCBEC0;">Área administrativa</h3>			</div>			<ul class="c-page-breadcrumbs c-theme-nav c-pull-right c-fonts-regular">				<li>				Olá Thiago Maneschy				</li>			</ul>		</div>	</div>	<!-- END: LAYOUT/BREADCRUMBS/BREADCRUMBS-1 -->			<!-- BEGIN: PAGE CONTENT -->		<!-- BEGIN: CONTENT/CONTACT/FEEDBACK-1 -->	<div class="c-content-box c-size-md c-bg-white">		<div class="container">			<div class="c-content-title-1">				<div class="c-line-center c-theme-bg">				</div>			</div>															<div class="c-content-panel">			
 					<div class="c-body">
 						<p>
 							<a href="#" class="btn c-theme-btn "><i class="glyphicon glyphicon-tower"></i> EMPREENDIMENTOS</a>
 							<a href="adm_list_clientes.php" class="btn c-theme-btn c-btn-border-2x c-btn-square"><i class="fa fa-group"></i> CLIENTES</a>
-							<a href="adm_banner.php" class="btn c-theme-btn c-btn-border-2x c-btn-square"><i class="fa fa-image"></i> BANNER</a>
 						</p>
 					</div>				<hr/>								<div class="c-body">
 				<a href="javascript:;" data-toggle="modal" data-target="#add_empreendimento"  class="btn btn-primary btn-xs" type="button"><i class="glyphicon glyphicon-tower"></i> adicionar empreendimento</a>
-				<br/>				<br/>					<div class="row">						<div class="col-md-12">							<table class="table table-hover">							<thead>							<tr>								<th>									<i class="glyphicon glyphicon-tower"></i>								</th>								<th>									EMPREENDIMENTO								</th>								<th style="text-align: center;">									DATA								</th>								<th style="text-align: center;">									EDITAR								</th>								<th style="text-align: center;">									EXCLUIR								</th>							</tr>							</thead>							<tbody>							<tr>								<th scope="row">									1								</th>								<td>									<a href="#">Nome do empreendimento</a>								</td>								<td style="text-align: center;">									07-11-2015								</td>								<td style="text-align: center;">									<a href="javascript:;" data-toggle="modal" data-target="#edit_empreendimento"  ><i class="fa fa-pencil"></i></a>								</td>								<td style="text-align: center;">									<a href="#"><i class="fa fa-close"> </i></a>								</td>							</tr>							<tr>
+				<br/>				<br/>					<div class="row">						<div class="col-md-12">							<table class="table table-hover">							<thead>							<tr>								<th>									<i class="glyphicon glyphicon-tower"></i>								</th>								<th>									EMPREENDIMENTO								</th>								<th style="text-align: center;">									DATA								</th>								<th style="text-align: center;">									EDITAR								</th>								<th style="text-align: center;">									EXCLUIR								</th>							</tr>							</thead>							<tbody>							<tr>								<th scope="row">									1								</th>								<td>									<a href="adm_empreendimento_item.php">Nome do empreendimento</a>								</td>								<td style="text-align: center;">									07-11-2015								</td>								<td style="text-align: center;">									<a href="javascript:;" data-toggle="modal" data-target="#edit_empreendimento"  ><i class="fa fa-pencil"></i></a>								</td>								<td style="text-align: center;">									<a href="#"><i class="fa fa-close"> </i></a>								</td>							</tr>							<tr>
 								<th scope="row">
 									2
 								</th>
 								<td>
-									<a href="#">Nome do empreendimento</a>
+									<a href="adm_empreendimento_item.php">Nome do empreendimento</a>
 								</td>
 								<td style="text-align: center;">
 									07-11-2015
@@ -83,7 +82,7 @@ Follow: www.twitter.com/themehats
 									3
 								</th>
 								<td>
-									<a href="#">Nome do empreendimento</a>
+									<a href="adm_empreendimento_item.php">Nome do empreendimento</a>
 								</td>
 								<td style="text-align: center;">
 									07-11-2015
@@ -99,7 +98,7 @@ Follow: www.twitter.com/themehats
 									4
 								</th>
 								<td>
-									<a href="#">Nome do empreendimento</a>
+									<a href="adm_empreendimento_item.php">Nome do empreendimento</a>
 								</td>
 								<td style="text-align: center;">
 									07-11-2015
@@ -252,7 +251,7 @@ Follow: www.twitter.com/themehats
 					</div>
 					<div class="form-group">
 						<button type="submit" class="btn c-theme-btn btn-md c-btn-uppercase c-btn-bold c-btn-square c-btn-login">salvar</button>
-						<a href="#" class="c-btn-forgot"><i class="fa fa-file-text"></i> editar conteúdo</a>
+						<a href="adm_empreendimento_item.php" class="c-btn-forgot"><i class="fa fa-file-text"></i> editar conteúdo</a>
 					</div>
 				</form>
 			</div>
