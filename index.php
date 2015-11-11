@@ -91,13 +91,13 @@ Follow: www.twitter.com/themehats
 						<a href="preco_custo.php" class="c-action-btn btn btn-lg c-btn-square c-theme-btn c-btn-bold c-btn-uppercase">conheça mais</a>
 					</div>
 				</li>
-				<!--fim -->								<!--BEGIN: SLIDE #2 -->				<li data-transition="fade" data-slotamount="1" data-masterspeed="1000">					<img alt="" src="assets/base/img/layout/slides/slide-home-lazer.jpg" 						data-bgposition="center center" 						data-bgfit="cover" 						data-bgrepeat="no-repeat">					<div class="caption customin customout tp-resizeme" 						data-x="center" 						data-y="center" 						data-hoffset="" 						data-voffset="-50" 						data-speed="500" 						data-start="1000" 						data-customin="x:0;y:0;z:0;rotationX:0.5;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" 						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" 						data-easing="Back.easeOut" 						data-splitin="none" 						data-splitout="none" 						data-elementdelay="0.1" 						data-endelementdelay="0.1" 						data-endspeed="600">						<h3 class="c-block-bordered c-font-35 c-font-bold c-font-center c-font-uppercase c-font-white c-block">						INVESTIMENTO DIFERENCIADO, SEGURO E RENTÁVEL</h3>					</div>					<div class="caption lft tp-resizeme" data-x="center" data-y="center" data-voffset="110" data-speed="900" data-start="2000" data-easing="easeOutExpo">						<a href="preco_custo.php" class="c-action-btn btn btn-lg c-btn-square c-theme-btn c-btn-bold c-btn-uppercase">conheça mais</a>					</div>				</li>				<!--fim -->				
+				<!--fim -->								<!--fim --><!--BEGIN: SLIDE #2 -->				<li data-transition="fade" data-slotamount="1" data-masterspeed="1000">					<img alt="" src="assets/base/img/layout/slides/pessoas2.jpg" 						data-bgposition="center center" 						data-bgfit="cover" 						data-bgrepeat="no-repeat">					<div class="caption customin customout tp-resizeme" 						data-x="center" 						data-y="center" 						data-hoffset="" 						data-voffset="-50" 						data-speed="500" 						data-start="1000" 						data-customin="x:0;y:0;z:0;rotationX:0.5;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" 						data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;" 						data-easing="Back.easeOut" 						data-splitin="none" 						data-splitout="none" 						data-elementdelay="0.1" 						data-endelementdelay="0.1" 						data-endspeed="600">						<h3 class="c-block-bordered c-font-35 c-font-bold c-font-center c-font-uppercase c-font-white c-block">						<br/><br/>Investimento diferenciado  <br/ style="margin-bottom: -10px;">para investidores diferenciados</h3>					</div>					<div class="caption lft tp-resizeme" data-x="center" data-y="center" data-voffset="110" data-speed="900" data-start="2000" data-easing="easeOutExpo">						<a href="preco_custo.php" class="c-action-btn btn btn-lg c-btn-square c-theme-btn c-btn-bold c-btn-uppercase">conheça mais</a>					</div>				</li>				<!--fim -->				
 			
 							
 				<!--BEGIN: SLIDE #4 -->
 				
 				<!--END -->
-			</ul>
+			</ul><p style="float: right; font-size: 12px; margin-right: 20px; margin-top: 3px; color: #808285;">imagens meramente ilustrativas</p>
 		</div>
 	</div>
 	</section>
@@ -128,7 +128,7 @@ Follow: www.twitter.com/themehats
 									</div>
 									<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
 										<div class="panel-body c-font-18">
-											 Somos uma empresa de construção civil focada na excelência operacional . Quatro palavras definem o nosso DNA: qualidade, responsabilidade, dedicação e lealdade.
+											 Somos uma empresa de construção civil focada na excelência operacional . Quatro palavras definem o nosso DNA: qualidade, responsabilidade, lealdade e dedicação.
 										</div>
 									</div>
 								</div>
