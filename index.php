@@ -119,7 +119,7 @@
 									</div>
 									<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
 										<div class="panel-body c-font-18">
-											 Somos uma empresa de construção civil focada na excelência operacional . Quatro palavras definem o nosso DNA: qualidade, responsabilidade, lealdade e dedicação
+											 Somos uma empresa de construção civil focada na excelência operacional . Três palavras definem o nosso DNA: qualidade, transparência e responsabilidade.
 										</div>
 									</div>
 								</div>
@@ -133,7 +133,7 @@
 									</div>
 									<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
 										<div class="panel-body c-font-18">
-											 Na construção dos empreendimentos, nas práticas de gestão, nas relações comerciais, na comunicação. A QUALIDADE está presente em todos os processos da empresa.																					 </div>
+											 Na busca constante por inovações tecnológicas, na construção dos empreendimentos, nas práticas de gestão, nas relações comerciais, na comunicação. A QUALIDADE está presente em todos os processos da empresa.																					 </div>
 									</div>
 								</div>
 																
