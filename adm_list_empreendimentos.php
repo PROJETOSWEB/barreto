@@ -200,7 +200,7 @@ Follow: www.twitter.com/themehats
 						<input type="email" class="form-control input-lg c-square" id="signup-email" placeholder="Nome do empreendimento">
 					</div>
 					<div class="form-group">
-						<input type="email" class="form-control input-lg c-square" id="signup-username" placeholder="data de inicio das obras">
+						<input type="email" class="form-control input-lg c-square" id="signup-username" placeholder="Data de inicio das obras">
 					</div>
 					<div class="form-group">
 						<input type="email" class="form-control input-lg c-square" id="signup-fullname" placeholder="Endereço do empreendimento">
