@@ -61,7 +61,13 @@ Follow: www.twitter.com/themehats
 						</p>
 					</div>				<hr/>								<div class="c-body">
 				<a href="javascript:;" data-toggle="modal" data-target="#add_empreendimento"  class="btn btn-primary btn-xs" type="button"><i class="glyphicon glyphicon-tower"></i> adicionar empreendimento</a>
-				<br/>				<br/>					<div class="row">						<div class="col-md-12">							<table class="table table-hover">							<thead>							<tr>								<th>									<i class="glyphicon glyphicon-tower"></i>								</th>								<th>									EMPREENDIMENTO								</th>								<th style="text-align: center;">									DATA								</th>								<th style="text-align: center;">									EDITAR								</th>								<th style="text-align: center;">									EXCLUIR								</th>							</tr>							</thead>							<tbody>							<tr>								<th scope="row">									1								</th>								<td>									<a href="adm_empreendimento_item.php">Nome do empreendimento</a>								</td>								<td style="text-align: center;">									07-11-2015								</td>								<td style="text-align: center;">									<a href="javascript:;" data-toggle="modal" data-target="#edit_empreendimento"  ><i class="fa fa-pencil"></i></a>								</td>								<td style="text-align: center;">									<a href="#"><i class="fa fa-close"> </i></a>								</td>							</tr>							<tr>
+				<br/>				<div class="form-group" style="margin-top: -30px;">
+				
+					<button type="submit" style="float: right;" class="btn c-theme-btn btn-sl c-btn-uppercase  c-btn-square c-btn-login">buscar</button>
+					<input type="busca_cliente" class="form-control input-sl c-square" style="width: 200px; float: right;" id="signup-fullname" placeholder="Busca de empreendimentos">
+				
+				</div>
+				<br/><br/>					<div class="row">						<div class="col-md-12">							<table class="table table-hover">							<thead>							<tr>								<th>									<i class="glyphicon glyphicon-tower"></i>								</th>								<th>									EMPREENDIMENTO								</th>								<th style="text-align: center;">									DATA								</th>								<th style="text-align: center;">									EDITAR								</th>								<th style="text-align: center;">									EXCLUIR								</th>							</tr>							</thead>							<tbody>							<tr>								<th scope="row">									1								</th>								<td>									<a href="adm_empreendimento_item.php">Nome do empreendimento</a>								</td>								<td style="text-align: center;">									07-11-2015								</td>								<td style="text-align: center;">									<a href="javascript:;" data-toggle="modal" data-target="#edit_empreendimento"  ><i class="fa fa-pencil"></i></a>								</td>								<td style="text-align: center;">									<a href="#"><i class="fa fa-close"> </i></a>								</td>							</tr>							<tr>
 								<th scope="row">
 									2
 								</th>
