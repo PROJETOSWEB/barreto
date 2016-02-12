@@ -1,5 +1,4 @@
 <?php
-
 /* CREATE BY: Karoline Oliveira 
  * DATE: 10/02/2016
  * DESCRIPTION: adiciona empreendimentos, atraves do form.
@@ -15,7 +14,23 @@ if ((!isset($_SESSION['email']) == true) and ( !isset($_SESSION['password']) == 
 }
 
 $porcent = $_POST['porcent'];
+$id = $_POST['id'];
 
-$insert = "INSERT INTO empreendimento (porcentagem)VALUES($porcent)";
+echo $insert = "UPDATE empreendimento SET porcentagem = $porcent WHERE empreendimento_id = $id";
 $executa_insert = mysql_query($insert)or die(mysql_error());
-       
+
+
+if ($executa_insert) {
+    ?>
+    <script>
+        window.location.href = '../adm_empreendimento_item.php?id=<?php echo $id; ?>&respost=right';
+    </script>
+    <?php
+} else {
+    ?>
+    <script>
+        window.location.href = '../adm_empreendimento_item.php?id=<?php echo $id; ?>&respost=error';
+    </script>
+    <?php
+}
+       ?>

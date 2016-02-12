@@ -104,6 +104,12 @@
                         </div>
                     </div>
 
+                    <?php
+                    $id_empreendimento = $_GET['id'];
+                    $sql_item = "SELECT * FROM empreendimento WHERE empreendimento_id = $id_empreendimento ";
+                    $executa_sqlItem = mysql_query($sql_item) or die(mysql_error());
+                    $dadosEmp = mysql_fetch_array($executa_sqlItem);
+                    ?>
 
 
 
@@ -113,7 +119,7 @@
                         <div class="c-body">
                             <h3><i class="fa fa-line-chart"></i> Andamento da obra</h3>
                             <div class="progress">
-                                <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%"><strong style="font-size: 20px;">65%</strong>
+                                <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: <?php echo $dadosEmp['porcentagem']; ?>%"><strong style="font-size: 20px;"><?php echo $dadosEmp['porcentagem']; ?>%</strong>
                                     <span class="sr-only">65% completos</span>
                                 </div>
                             </div>
@@ -520,6 +526,7 @@
                 <form method="POST" action="php/add_porcentagem.php">
                     <div class="form-group">
                         <input class="form-control c-square c-theme" type="text" name="porcent" aria-describedby="basic-addon2" maxlength="2"  placeholder="porcento da obra % • somente numeros">
+                        <input class="form-control c-square c-theme" value="<?php echo $_GET['id']; ?>" type="hidden" name="id" aria-describedby="basic-addon2" maxlength="2"  placeholder="porcento da obra % • somente numeros">
                     </div>
 
                     <div class="form-group">
