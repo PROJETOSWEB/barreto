@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<FileZilla3>
+    <Servers>
+        <Server>
+            <Host>ftp.echodigo.com.br</Host>
+            <Port>21</Port>
+            <Protocol>0</Protocol>
+            <Type>0</Type>
+            <User>u127987691</User>
+            <Pass encoding="base64">MTIzNDU2Nzg=</Pass>
+            <Logontype>1</Logontype>
+            <TimezoneOffset>0</TimezoneOffset>
+            <PasvMode>MODE_DEFAULT</PasvMode>
+            <MaximumMultipleConnections>0</MaximumMultipleConnections>
+            <EncodingType>Auto</EncodingType>
+            <BypassProxy>0</BypassProxy>
+            <Name>echodigo</Name>
+            <Comments />
+            <LocalDir />
+            <RemoteDir />
+            <SyncBrowsing>0</SyncBrowsing>echodigo&#x0A;        
+        </Server>
+        <Server>
+            <Host>72.55.191.80</Host>
+            <Port>21</Port>
+            <Protocol>0</Protocol>
+            <Type>0</Type>
+            <User>fergel</User>
+            <Pass encoding="base64">MUB4N2Ehaw==</Pass>
+            <Logontype>1</Logontype>
+            <TimezoneOffset>0</TimezoneOffset>
+            <PasvMode>MODE_DEFAULT</PasvMode>
+            <MaximumMultipleConnections>0</MaximumMultipleConnections>
+            <EncodingType>Auto</EncodingType>
+            <BypassProxy>0</BypassProxy>
+            <Name>fergel</Name>
+            <Comments />
+            <LocalDir />
+            <RemoteDir />
+            <SyncBrowsing>0</SyncBrowsing>fergel&#x0A;        
+        </Server>
+        <Server>
+            <Host>ftp.fbnovas.edu.br</Host>
+            <Port>21</Port>
+            <Protocol>0</Protocol>
+            <Type>0</Type>
+            <User>tifbn</User>
+            <Pass encoding="base64">RkJOYWRtaW4yMDE1</Pass>
+            <Logontype>1</Logontype>
+            <TimezoneOffset>0</TimezoneOffset>
+            <PasvMode>MODE_DEFAULT</PasvMode>
+            <MaximumMultipleConnections>0</MaximumMultipleConnections>
+            <EncodingType>Auto</EncodingType>
+            <BypassProxy>0</BypassProxy>
+            <Name>ftp.fbnovas.edu.br</Name>
+            <Comments />
+            <LocalDir />
+            <RemoteDir />
+            <SyncBrowsing>0</SyncBrowsing>ftp.fbnovas.edu.br&#x0A;        
+        </Server>
+        <Server>
+            <Host>ftp.goupper.com.br</Host>
+            <Port>21</Port>
+            <Protocol>0</Protocol>
+            <Type>0</Type>
+            <User>goupper</User>
+            <Pass encoding="base64">dXBwZXIxNQ==</Pass>
+            <Logontype>1</Logontype>
+            <TimezoneOffset>0</TimezoneOffset>
+            <PasvMode>MODE_DEFAULT</PasvMode>
+            <MaximumMultipleConnections>0</MaximumMultipleConnections>
+            <EncodingType>Auto</EncodingType>
+            <BypassProxy>0</BypassProxy>
+            <Name>goupper</Name>
+            <Comments />
+            <LocalDir />
+            <RemoteDir />
+            <SyncBrowsing>0</SyncBrowsing>goupper&#x0A;        
+        </Server>
+        <Server>
+            <Host>ftp.web1321.kinghost.net</Host>
+            <Port>21</Port>
+            <Protocol>0</Protocol>
+            <Type>0</Type>
+            <User>fergel</User>
+            <Pass encoding="base64">bWFuZXNjaHkxNQ==</Pass>
+            <Logontype>1</Logontype>
+            <TimezoneOffset>0</TimezoneOffset>
+            <PasvMode>MODE_DEFAULT</PasvMode>
+            <MaximumMultipleConnections>0</MaximumMultipleConnections>
+            <EncodingType>Auto</EncodingType>
+            <BypassProxy>0</BypassProxy>
+            <Name>kingfergel</Name>
+            <Comments />
+            <LocalDir />
+            <RemoteDir />
+            <SyncBrowsing>0</SyncBrowsing>kingfergel&#x0A;        
+        </Server>
+        <Server>
+            <Host>ftp.openworlddigital.com.br</Host>
+            <Port>21</Port>
+            <Protocol>0</Protocol>
+            <Type>0</Type>
+            <User>u876926279</User>
+            <Pass encoding="base64">b3BlbjEyMzQ1</Pass>
+            <Logontype>1</Logontype>
+            <TimezoneOffset>0</TimezoneOffset>
+            <PasvMode>MODE_DEFAULT</PasvMode>
+            <MaximumMultipleConnections>0</MaximumMultipleConnections>
+            <EncodingType>Auto</EncodingType>
+            <BypassProxy>0</BypassProxy>
+            <Name>openworld</Name>
+            <Comments />
+            <LocalDir />
+            <RemoteDir />
+            <SyncBrowsing>0</SyncBrowsing>openworld&#x0A;        
+        </Server>
+    </Servers>
+    <Settings>
+        <Setting name="Use Pasv mode">1</Setting>
+        <Setting name="Limit local ports">0</Setting>
+        <Setting name="Limit ports low">6000</Setting>
+        <Setting name="Limit ports high">7000</Setting>
+        <Setting name="Limit ports offset">0</Setting>
+        <Setting name="External IP mode">0</Setting>
+        <Setting name="External IP" />
+        <Setting name="External address resolver">http://ip.filezilla-project.org/ip.php</Setting>
+        <Setting name="Last resolved IP" />
+        <Setting name="No external ip on local conn">1</Setting>
+        <Setting name="Pasv reply fallback mode">0</Setting>
+        <Setting name="Timeout">20</Setting>
+        <Setting name="Logging Debug Level">0</Setting>
+        <Setting name="Logging Raw Listing">0</Setting>
+        <Setting name="fzsftp executable" />
+        <Setting name="Allow transfermode fallback">1</Setting>
+        <Setting name="Reconnect count">2</Setting>
+        <Setting name="Reconnect delay">5</Setting>
+        <Setting name="Enable speed limits">0</Setting>
+        <Setting name="Speedlimit inbound">100</Setting>
+        <Setting name="Speedlimit outbound">20</Setting>
+        <Setting name="Speedlimit burst tolerance">0</Setting>
+        <Setting name="Preallocate space">0</Setting>
+        <Setting name="View hidden files">0</Setting>
+        <Setting name="Preserve timestamps">0</Setting>
+        <Setting name="Socket recv buffer size (v2)">4194304</Setting>
+        <Setting name="Socket send buffer size (v2)">262144</Setting>
+        <Setting name="FTP Keep-alive commands">0</Setting>
+        <Setting name="FTP Proxy type">0</Setting>
+        <Setting name="FTP Proxy host" />
+        <Setting name="FTP Proxy user" />
+        <Setting name="FTP Proxy password" />
+        <Setting name="FTP Proxy login sequence" />
+        <Setting name="SFTP keyfiles" />
+        <Setting name="SFTP compression">0</Setting>
+        <Setting name="Proxy type">0</Setting>
+        <Setting name="Proxy host" />
+        <Setting name="Proxy port">0</Setting>
+        <Setting name="Proxy user" />
+        <Setting name="Proxy password" />
+        <Setting name="Logging file" />
+        <Setting name="Logging filesize limit">10</Setting>
+        <Setting name="Logging show detailed logs">0</Setting>
+        <Setting name="Size format">0</Setting>
+        <Setting name="Size thousands separator">1</Setting>
+        <Setting name="Size decimal places">1</Setting>
+        <Setting name="Number of Transfers">2</Setting>
+        <Setting name="Ascii Binary mode">0</Setting>
+        <Setting name="Auto Ascii files">am|asp|bat|c|cfm|cgi|conf|cpp|css|dhtml|diz|h|hpp|htm|html|in|inc|java|js|jsp|lua|m4|mak|md5|nfo|nsi|pas|patch|php|phtml|pl|po|py|qmail|sh|sha1|sha256|sha512|shtml|sql|svg|tcl|tpl|txt|vbs|xhtml|xml|xrc</Setting>
+        <Setting name="Auto Ascii no extension">1</Setting>
+        <Setting name="Auto Ascii dotfiles">1</Setting>
+        <Setting name="Theme">opencrystal/</Setting>
+        <Setting name="Language Code" />
+        <Setting name="Last Server Path">1 0 3 www 3 php</Setting>
+        <Setting name="Concurrent download limit">0</Setting>
+        <Setting name="Concurrent upload limit">0</Setting>
+        <Setting name="Update Check">1</Setting>
+        <Setting name="Update Check Interval">7</Setting>
+        <Setting name="Last automatic update check">2015-07-20 20:28:11</Setting>
+        <Setting name="Update Check New Version">nightly 2015-07-20 http://filezilla-project.org/nightlies/2015-07-20/i686-w64-mingw32/FileZilla_3_setup.exe 6814824 sha512 51ae0c1d55f6e2f5540d26cdf833cb2081f54f66a44e90fc09f79d4001e0eee808c72a5ffb3dfab3e452b9ef153c6171dd1930849f543aa8fd10e1916bf3fe8b &#x0A;release 3.12.0.2 http://downloads.sourceforge.net/filezilla/FileZilla_3.12.0.2_win32-setup.exe 6243296 sha512 9e0c28412a3623da11154b9ee6e8b566a9ce4f7c458f83df0035eafa5bd48598451d4fb6c834eef2b01e4211b01e965bbc3659b86b832877e7a825b5547cc85a&#x0A;&#x0A;3.12.0.2 (2015-07-09)&#x0A;&#x0A;- Fix regression on servers that have MLSD facts disabled by default&#x0A;&#x0A;3.12.0.1 (2015-07-09)&#x0A;&#x0A;- Fix detection of UTF-8 support&#x0A;- Fix location of file list status bar, it was shifted by one pixel&#x0A;&#x0A;3.12.0 (2015-07-08)&#x0A;&#x0A;+ Directory comparison can be configured for Site Manager entries and bookmarks&#x0A;- Instead of skipping commands due to spontaneous connection failures while executing a command, reconnect and retry&#x0A;- FileZilla no longer shows popup dialogs such as the file exists dialog if another dialog or message box is already shown&#x0A;- Improved compatibility with servers sending malformed FEAT replies&#x0A;&#x0A;3.12.0-rc1 (2015-06-29)&#x0A;&#x0A;+ FileZilla no longer visually enters each visited directory during recursive operations, e.g. when downloading or deleting remote directories. During recursive operations the server&apos;s directory structure can now be navigated as if idle&#x0A;+ Ask for confirmation if trying to load Site Manager data originating from a future version of FileZilla&#x0A;+ Display location of settings directory on the About dialog&#x0A;+ Display detected CPU features (on x86) on the About dialog&#x0A;- Remove certificate verification messages in the message log for data connections&#x0A;- Speed up parsing of the PASV reply&#x0A;- The status bar of the search dialog now shows the number of found matches again&#x0A;- OS X: Configuring SFTP keys no longer fails if the full path of FileZilla&apos;s application bundle contains spaces&#x0A;- *nix: Make waitable conditions immune to wallclock changes if the system supports both clock_gettime and pthread_condattr_setclock&#x0A;- Fixed a rare crash when queuing many socket threads for deletion at the same time&#x0A;&#x0A;3.11.0.2 (2015-06-02)&#x0A;&#x0A;- Fixed a potential crash if a connection gets remotely closed in the same moment a new connection is to be opened&#x0A;- Improved compatibility with servers sending pre-epoch timestamps&#x0A;- Fixed pt_BR translation&#x0A;</Setting>
+        <Setting name="Update Check Check Beta">0</Setting>
+        <Setting name="Show debug menu">0</Setting>
+        <Setting name="File exists action download">0</Setting>
+        <Setting name="File exists action upload">0</Setting>
+        <Setting name="Allow ascii resume">0</Setting>
+        <Setting name="Greeting version">3.11.0.1</Setting>
+        <Setting name="Onetime Dialogs" />
+        <Setting name="Show Tree Local">1</Setting>
+        <Setting name="Show Tree Remote">1</Setting>
+        <Setting name="File Pane Layout">0</Setting>
+        <Setting name="File Pane Swap">0</Setting>
+        <Setting name="Last local directory">C:\Program Files\EasyPHP-DevServer-14.1VC11\data\localweb\goupper\php\</Setting>
+        <Setting name="Filelist directory sort">0</Setting>
+        <Setting name="Filelist name sort">0</Setting>
+        <Setting name="Queue successful autoclear">0</Setting>
+        <Setting name="Queue column widths">180 60 468 80 60 100</Setting>
+        <Setting name="Local filelist colwidths">271 80 100 120</Setting>
+        <Setting name="Remote filelist colwidths">237 70 193 100 80 80</Setting>
+        <Setting name="Window position and size">1 233 5 884 613 </Setting>
+        <Setting name="Splitter positions (v2)">104 -124 367496339 100 100 500000000</Setting>
+        <Setting name="Local filelist sortorder">0 0</Setting>
+        <Setting name="Remote filelist sortorder">0 0</Setting>
+        <Setting name="Time Format" />
+        <Setting name="Date Format" />
+        <Setting name="Show message log">1</Setting>
+        <Setting name="Show queue">1</Setting>
+        <Setting name="Default editor" />
+        <Setting name="Always use default editor">0</Setting>
+        <Setting name="Inherit system associations">1</Setting>
+        <Setting name="Custom file associations">php1 C:\Windows\system32\NOTEPAD.EXE</Setting>
+        <Setting name="Comparison mode">1</Setting>
+        <Setting name="Comparison threshold">1</Setting>
+        <Setting name="Site Manager position">0 354 130 641 428 </Setting>
+        <Setting name="Theme icon size" />
+        <Setting name="Timestamp in message log">0</Setting>
+        <Setting name="Sitemanager last selected">0/goupper</Setting>
+        <Setting name="Local filelist shown columns">1111</Setting>
+        <Setting name="Remote filelist shown columns">111111</Setting>
+        <Setting name="Local filelist column order">0,1,2,3</Setting>
+        <Setting name="Remote filelist column order">0,1,2,3,4,5</Setting>
+        <Setting name="Filelist status bar">1</Setting>
+        <Setting name="Filter toggle state">0</Setting>
+        <Setting name="Show quickconnect bar">1</Setting>
+        <Setting name="Messagelog position">0</Setting>
+        <Setting name="Last connected site">0/goupper</Setting>
+        <Setting name="File doubleclock action">0</Setting>
+        <Setting name="Dir doubleclock action">0</Setting>
+        <Setting name="Minimize to tray">0</Setting>
+        <Setting name="Search column widths" />
+        <Setting name="Search column shown" />
+        <Setting name="Search column order" />
+        <Setting name="Search window size" />
+        <Setting name="Comparison hide identical">0</Setting>
+        <Setting name="Search sort order" />
+        <Setting name="Edit track local">1</Setting>
+        <Setting name="Prevent idle sleep">1</Setting>
+        <Setting name="Filteredit window size" />
+        <Setting name="Enable invalid char filter">1</Setting>
+        <Setting name="Invalid char replace">_</Setting>
+        <Setting name="Already connected choice">1</Setting>
+        <Setting name="Edit status dialog size" />
+        <Setting name="Display current speed">0</Setting>
+        <Setting name="Toolbar hidden">0</Setting>
+        <Setting name="Strip VMS revisions">0</Setting>
+        <Setting name="Show Site Manager on startup">0</Setting>
+        <Setting name="Prompt password change">1</Setting>
+        <Setting name="Persistent Choices">0</Setting>
+        <Setting name="Config Location">C:\Users\Karol Oliveira\AppData\Roaming\FileZilla\</Setting>
+        <Setting name="Kiosk mode">0</Setting>
+        <Setting name="Disable update check">0</Setting>
+        <LastServer>
+            <Host>ftp.goupper.com.br</Host>
+            <Port>21</Port>
+            <Protocol>0</Protocol>
+            <Type>0</Type>
+            <User>goupper</User>
+            <Pass encoding="base64">dXBwZXIxNQ==</Pass>
+            <Logontype>1</Logontype>
+            <TimezoneOffset>0</TimezoneOffset>
+            <PasvMode>MODE_DEFAULT</PasvMode>
+            <MaximumMultipleConnections>0</MaximumMultipleConnections>
+            <EncodingType>Auto</EncodingType>
+            <BypassProxy>0</BypassProxy>
+            <Name>goupper</Name>
+        </LastServer>
+    </Settings>
+    <Queue />
+</FileZilla3>

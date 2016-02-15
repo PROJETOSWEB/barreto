@@ -156,89 +156,38 @@
                                             </tr>
                                         </thead>
                                         <tbody>
-                                            <tr>
-                                                <th scope="row">
-                                                    •
-                                                </th>
-                                                <td>
-                                                    Planilha de custo
-                                                </td>
-                                                <td style="text-align: center;">
-                                                    07-11-2015
-                                                </td>
-                                                <td style="text-align: center;">
-                                                    Financeiro
-                                                </td>
-                                                <td style="text-align: center;">
-                                                    <a href="#"><span class="glyphicon glyphicon-cloud-download"> </span></a>
-                                                </td>
-                                                <td style="text-align: center;">
-                                                    <a href="#"><i class="fa fa-close"> </i></a>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">
-                                                    •
-                                                </th>
-                                                <td>
-                                                    Cronograma atualizado
-                                                </td>
-                                                <td style="text-align: center;">
-                                                    07-11-2015
-                                                </td>
-                                                <td style="text-align: center;">
-                                                    Área de lazer
-                                                </td>
-                                                <td style="text-align: center;">
-                                                    <a href="#"><span class="glyphicon glyphicon-cloud-download"> </span></a>
-                                                </td>
-                                                <td style="text-align: center;">
-                                                    <a href="#"><i class="fa fa-close"> </i></a>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">
-                                                    •
-                                                </th>
-                                                <td>
-                                                    Informativo 0134
-                                                </td>
-                                                <td style="text-align: center;">
-                                                    07-11-2015
-                                                </td>
-                                                <td style="text-align: center;">
-                                                    Cronograma
-                                                </td>
-                                                <td style="text-align: center;">
-                                                    <a href="#"><span class="glyphicon glyphicon-cloud-download"> </span></a>
-                                                </td>
-                                                <td style="text-align: center;">
-                                                    <a href="#"><i class="fa fa-close"> </i></a>
-                                                </td>
-                                            </tr>
 
-                                            <tr>
-                                                <th scope="row">
-                                                    •
-                                                </th>
-                                                <td>
-                                                    2ª via boleto
-                                                </td>
-                                                <td style="text-align: center;">
-                                                    07-11-2015
-                                                </td>
-                                                <td style="text-align: center;">
-                                                    financiero
-                                                </td>
-                                                <td style="text-align: center;">
-                                                    <a href="#"><span class="glyphicon glyphicon-cloud-download"> </span></a>
-                                                </td>
-                                                <td style="text-align: center;">
-                                                    <a href="#"><i class="fa fa-close"> </i> </a>
-                                                </td>
-                                            </tr>
+                                            <?php
+                                            $select_doc = "SELECT * FROM doc_empreendimento WHERE empreendimento_id = $id_empreendimento";
+                                            $executa_sql_doc = mysql_query($select_doc)or die(mysql_error());
 
+                                            while ($array_doc = mysql_fetch_array($executa_sql_doc)) {
+                                                ?>
 
+                                                <tr>
+                                                    <th scope="row">
+                                                        •
+                                                    </th>
+                                                    <td>
+                                                        <?php echo $array_doc['doc']; ?>
+                                                    </td>
+                                                    <td style="text-align: center;">
+                                                        <?php echo $array_doc['data_doc']; ?>
+                                                    </td>
+                                                    <td style="text-align: center;">
+                                                        <?php echo $array_doc['assunto']; ?>
+                                                    </td>
+                                                    <td style="text-align: center;">
+                                                        <a href="php/documentos/<?php echo $array_doc['doc']; ?>" download><span class="glyphicon glyphicon-cloud-download"> </span></a>
+                                                    </td>
+                                                    <td style="text-align: center;">
+                                                        <a href="#"><i class="fa fa-close"> </i></a>
+                                                    </td>
+                                                </tr>
+
+                                                <?php
+                                            }
+                                            ?>
                                         </tbody>
                                     </table>
                                 </div>
@@ -552,18 +501,19 @@
                 <p>
                     Adicione documentos para todos os clientes deste empreendimento
                 </p>
-                <form>
+                <form method="POST" action="php/add_documento.php" enctype='multipart/form-data'>
                     <div class="form-group">
-                        <input type="text" class="form-control input-lg c-square" id="signup-email" placeholder="Título do documento">
+                        <input type="text" name="title" class="form-control input-lg c-square" id="signup-email" placeholder="Título do documento">
+                        <input type="hidden" name="id" value="<?php echo $_GET['id']; ?>">
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control input-lg c-square" id="signup-username" placeholder="Assunto">
+                        <input type="text" name="subject" class="form-control input-lg c-square" id="signup-username" placeholder="Assunto">
                     </div>
                     <div class="form-group">
-                        <input type="datetime" class="form-control input-lg c-square" id="signup-fullname" placeholder="Data">
+                        <input type="datetime" name="date" class="form-control input-lg c-square" id="signup-fullname" placeholder="Data">
                     </div>
                     <div class="form-group">
-                        <input type="file" class="form-control input-lg c-square" id="signup-fullname" >
+                        <input type="file" name="img" class="form-control input-lg c-square" id="signup-fullname" >
                     </div>
 
                     <div class="form-group">

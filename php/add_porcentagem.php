@@ -16,7 +16,7 @@ if ((!isset($_SESSION['email']) == true) and ( !isset($_SESSION['password']) == 
 $porcent = $_POST['porcent'];
 $id = $_POST['id'];
 
-echo $insert = "UPDATE empreendimento SET porcentagem = $porcent WHERE empreendimento_id = $id";
+$insert = "UPDATE empreendimento SET porcentagem = $porcent WHERE empreendimento_id = $id";
 $executa_insert = mysql_query($insert)or die(mysql_error());
 
 
