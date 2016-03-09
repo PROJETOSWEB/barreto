@@ -1,29 +1,28 @@
+<html>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="keyword" content="Sky admin, administrador de sites">
-    <link rel="shortcut icon" href="<?php echo base_url(); ?>template/img/ico-sky.png">
+    <meta charset="utf-8"/>
+    <title>BARRETO empreendimentos</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta content="" name="description"/>
+    <meta content="" name="author"/>
+
+    <link rel="shortcut icon" href="<?php echo base_url(); ?>template/assets/base/img/layout/logos/ico-barreto.png"/>
+
     <?php include 'includes.php'; ?>
     <title><?php echo $page_title; ?> | <?php echo $system_title; ?></title>
 </head>
 
 
-<body>
+<body class="c-layout-header-fixed">
 
-    <section id="container">
+    <?php include 'menu.php'; ?>
 
-        <?php include 'header.php'; ?>
-
-        <?php include 'menu.php'; ?>
-        <section id="container" class="">
-            <?php include "agape/".$page_name . '.php'; ?>
-        </section>
-        
+    <div class="c-layout-page">
+        <?php include "barreto/" . $page_name . '.php'; ?>
         <?php include 'footer.php'; ?>
-
-    </section>
+    </div>
 
 </body>
-
 </html>

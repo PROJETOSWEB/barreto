@@ -1,44 +1,88 @@
-<link rel="stylesheet" href="<?php echo base_url(); ?>template/css/font.css">
-<link rel="stylesheet" href="<?php echo base_url(); ?>template/css/bootstrap.min.css">
-<link rel="stylesheet" href="<?php echo base_url(); ?>template/css/bootstrap-reset.css">
-<link rel="stylesheet" href="<?php echo base_url(); ?>template/assets/font-awesome/css/font-awesome.css">
-<link href="<?php echo base_url(); ?>template/css/owl.carousel.css" rel="stylesheet" type="text/css" />
+<!-- BEGIN GLOBAL MANDATORY STYLES -->
+<link href='http://fonts.googleapis.com/css?family=Raleway:100,300,600,900&amp;subset=all' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700&amp;subset=all' rel='stylesheet' type='text/css'>
+<link href="<?php echo base_url(); ?>template/assets/plugins/socicon/socicon.css" rel="stylesheet" type="text/css"/>
+<link href="<?php echo base_url(); ?>template/assets/plugins/bootstrap-social/bootstrap-social.css" rel="stylesheet" type="text/css"/>
+<link href="<?php echo base_url(); ?>template/assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+<link href="<?php echo base_url(); ?>template/assets/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css"/>
+<link href="<?php echo base_url(); ?>template/assets/plugins/animate/animate.min.css" rel="stylesheet" type="text/css"/>
+<link href="<?php echo base_url(); ?>template/assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+<!-- END GLOBAL MANDATORY STYLES -->
+<!-- BEGIN: BASE PLUGINS  -->
+<link href="<?php echo base_url(); ?>template/assets/plugins/revo-slider/css/settings.css" rel="stylesheet" type="text/css"/>
+<link href="<?php echo base_url(); ?>template/assets/plugins/cubeportfolio/css/cubeportfolio.min.css" rel="stylesheet" type="text/css"/>
+<link href="<?php echo base_url(); ?>template/assets/plugins/owl-carousel/owl.carousel.css" rel="stylesheet" type="text/css"/>
+<link href="<?php echo base_url(); ?>template/assets/plugins/owl-carousel/owl.theme.css" rel="stylesheet" type="text/css"/>
+<link href="<?php echo base_url(); ?>template/assets/plugins/owl-carousel/owl.transitions.css" rel="stylesheet" type="text/css"/>
+<link href="<?php echo base_url(); ?>template/assets/plugins/fancybox/jquery.fancybox.css" rel="stylesheet" type="text/css"/>
+<!-- END: BASE PLUGINS -->
+<!-- BEGIN THEME STYLES -->
+<link href="<?php echo base_url(); ?>template/assets/base/css/plugins.css" rel="stylesheet" type="text/css"/>
+<link href="<?php echo base_url(); ?>template/assets/base/css/components.css" id="style_components" rel="stylesheet" type="text/css"/>
+<link href="<?php echo base_url(); ?>template/assets/base/css/themes/default.css" rel="stylesheet" id="style_theme" type="text/css"/>
+<link href="<?php echo base_url(); ?>template/assets/base/css/custom.css" rel="stylesheet" type="text/css"/>
+<!-- END THEME STYLES -->
+<script src="<?php echo base_url(); ?>template/assets/plugins/jquery.min.js" type="text/javascript"></script>
+
+
 
 <!--[if lt IE 9]>
-<script src="<?php echo base_url(); ?>template/js/html5shiv.js" type="text/javascript"></script>
-<script src="<?php echo base_url(); ?>template/js/respond.min.js" type="text/javascript"></script>
+<script src="../assets/global/plugins/excanvas.min.js"></script> 
 <![endif]-->
 
+<!--<script src="assets/plugins/jquery.min.js" type="text/javascript"></script>-->
+<script src="<?php echo base_url(); ?>template/assets/plugins/jquery-migrate.min.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>template/assets/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<!-- END: CORE PLUGINS -->
+<!-- BEGIN: LAYOUT PLUGINS -->
+<script src="<?php echo base_url(); ?>template/assets/plugins/revo-slider/js/jquery.themepunch.tools.min.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>template/assets/plugins/revo-slider/js/jquery.themepunch.revolution.min.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>template/assets/plugins/cubeportfolio/js/jquery.cubeportfolio.min.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>template/assets/plugins/owl-carousel/owl.carousel.min.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>template/assets/plugins/counterup/jquery.waypoints.min.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>template/assets/plugins/counterup/jquery.counterup.min.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>template/assets/plugins/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
+<!-- END: LAYOUT PLUGINS -->
+<!-- BEGIN: THEME SCRIPTS -->
+<script src="<?php echo base_url(); ?>template/assets/base/js/components.js" type="text/javascript"></script>
+<script src="<?php echo base_url(); ?>template/assets/base/js/app.js" type="text/javascript"></script>
+<script>
+    $(document).ready(function () {
+        App.init(); // init core    
 
-
-<!--script for this page only-->
-<link rel="stylesheet" href="<?php echo base_url(); ?>template/assets/advanced-datatable/media/css/demo_page.css">
-<link rel="stylesheet" href="<?php echo base_url(); ?>template/assets/advanced-datatable/media/css/demo_table.css">
-<link rel="stylesheet" href="<?php echo base_url(); ?>template/assets/bootstrap-fileupload/bootstrap-fileupload.css">
-<link rel="stylesheet" href="<?php echo base_url(); ?>template/assets/bootstrap-datepicker/css/datepicker.css">
-<!--<link rel="stylesheet" href="<?php echo base_url(); ?>template/assets/data-tables/DT_bootstrap.css">-->
-<link rel="stylesheet" href="<?php echo base_url(); ?>template/css/style.css">
-<link rel="stylesheet" href="<?php echo base_url(); ?>template/css/style-responsive.css">
-
-
-<script src="<?php echo base_url(); ?>template/js/jquery.js" type="text/javascript"></script>
-<script src="<?php echo base_url(); ?>template/js/jquery-1.8.3.min.js" type="text/javascript"></script>
-<script src="<?php echo base_url(); ?>template/js/bootstrap.min.js" type="text/javascript"></script>
-<script src="<?php echo base_url(); ?>template/assets/advanced-datatable/media/js/jquery.js" type="text/javascript"></script>
-<script src="<?php echo base_url(); ?>template/js/jquery.dcjqaccordion.2.7.js" type="text/javascript"></script>
-<script src="<?php echo base_url(); ?>template/assets/advanced-datatable/media/js/jquery.dataTables.js" type="text/javascript"></script>
-<script src="<?php echo base_url(); ?>template/assets/data-tables/DT_bootstrap.js" type="text/javascript"></script>
-<script src="<?php echo base_url(); ?>template/js/respond.min.js" type="text/javascript"></script>
-<script src="<?php echo base_url(); ?>template/js/common-scripts.js" type="text/javascript"></script>
-<script src="<?php echo base_url(); ?>template/js/advanced-form-components.js" type="text/javascript"></script>
-<script src="<?php echo base_url(); ?>template/js/form-component.js" type="text/javascript"></script>
-<script src="<?php echo base_url(); ?>template/js/jquery.customSelect.min.js" type="text/javascript"></script>
-<script src="<?php echo base_url(); ?>template/js/bootstrap-switch.js" type="text/javascript"></script>
-<script src="<?php echo base_url(); ?>template/js/jquery.tagsinput.js" type="text/javascript"></script>
-<script src="<?php echo base_url(); ?>template/assets/fuelux/js/spinner.min.js" type="text/javascript"></script>
-<script src="<?php echo base_url(); ?>template/assets/ckeditor/ckeditor.js" type="text/javascript"></script>
-<script src="<?php echo base_url(); ?>template/assets/bootstrap-fileupload/bootstrap-fileupload.js" type="text/javascript"></script>
-<script src="<?php echo base_url(); ?>template/assets/bootstrap-datepicker/js/bootstrap-datepicker.js" type="text/javascript"></script>
+        //init main slider
+        var slider = $('.c-layout-revo-slider .tp-banner');
+        var cont = $('.c-layout-revo-slider .tp-banner-container');
+        var api = slider.show().revolution({
+            delay: 15000,
+            startwidth: 1170,
+            startheight: (App.getViewPort().width < App.getBreakpoint('md') ? 1024 : 620),
+            navigationType: "hide",
+            navigationArrows: "solo",
+            touchenabled: "on",
+            onHoverStop: "on",
+            keyboardNavigation: "off",
+            navigationStyle: "circle",
+            navigationHAlign: "center",
+            navigationVAlign: "center",
+            fullScreenAlignForce: "off",
+            shadow: 0,
+            fullWidth: "on",
+            fullScreen: "off",
+            spinner: "spinner2",
+            forceFullWidth: "on",
+            hideTimerBar: "on",
+            hideThumbsOnMobile: "on",
+            hideNavDelayOnMobile: 1500,
+            hideBulletsOnMobile: "on",
+            hideArrowsOnMobile: "on",
+            hideThumbsUnderResolution: 0,
+            videoJsPath: "rs-plugin/videojs/",
+        });
+    });
+</script>
+<!-- END: THEME SCRIPTS -->
+<!-- END: LAYOUT/BASE/BOTTOM -->
 
 
 <?php
