@@ -203,26 +203,26 @@
                     <h1><i class="fa fa-photo"></i> ACOMPANHE TUDO POR FOTOS E VÍDEOS</h1>
                     <div id="filters-container" class="cbp-l-filters-button">
 
-                        <div data-filter=".inicio" class="cbp-filter-item">
-                            INÍCIO DAS OBRAS
+                        <div data-filter=".terraplenagem" class="cbp-filter-item">
+                            TERRAPLENAGEM
                             <div class="cbp-filter-counter">
                             </div>
                         </div>
-                        <div data-filter=".construcoes" class="cbp-filter-item">
-                            CONSTRUÇÕES
+                        <div data-filter=".fundacao" class="cbp-filter-item">
+                            FUNDAÇÃO
                             <div class="cbp-filter-counter">
                             </div>
                         </div>
-                        <div data-filter=".acabamentos" class="cbp-filter-item">
-                            ACABAMENTOS
+                        <div data-filter=".estrutura" class="cbp-filter-item">
+                            ESTRUTURA
                             <div class="cbp-filter-counter">
                             </div>
                         </div>
-                        <div data-filter=".entrega" class="cbp-filter-item">
-                            ENTREGA
+                        <div data-filter=".vedacao" class="cbp-filter-item">
+                            VEDAÇÃO
                             <div class="cbp-filter-counter">
                             </div>
-                        </div>
+                        </div>                        <div data-filter=".instalacoes" class="cbp-filter-item">                            INSTALAÇÕES                            <div class="cbp-filter-counter">                            </div>                        </div>                        <div data-filter=".acabamaentos" class="cbp-filter-item">                            ACABAMENTOS                            <div class="cbp-filter-counter">                            </div>                        </div>                        
 
                         <div data-filter=".videos" class="cbp-filter-item">
                             VÍDEOS
@@ -234,7 +234,7 @@
                     </div>
                     <div id="grid-container" class="cbp">
 
-                        <div class="cbp-item construcoes">
+                        <div class="cbp-item terraplenagem">
                             <div class="cbp-caption">
                                 <div class="cbp-caption-defaultWrap">
                                     <img src="assets/base/img/content/stock/60.jpg" alt="">
@@ -253,7 +253,7 @@
                             </div>
                         </div>
 
-                        <div class="cbp-item inicio">
+                        <div class="cbp-item fundacao">
                             <div class="cbp-caption">
                                 <div class="cbp-caption-defaultWrap">
                                     <img src="assets/base/img/content/stock/57.jpg" alt="">
@@ -272,7 +272,7 @@
                             </div>
                         </div>
 
-                        <div class="cbp-item acabamento">
+                        <div class="cbp-item estrutura">
                             <div class="cbp-caption">
                                 <div class="cbp-caption-defaultWrap">
                                     <img src="assets/base/img/content/stock/58.jpg" alt="">
@@ -291,7 +291,7 @@
                             </div>
                         </div>
 
-                        <div class="cbp-item construcoes">
+                        <div class="cbp-item vedacao">
                             <div class="cbp-caption">
                                 <div class="cbp-caption-defaultWrap">
                                     <img src="assets/base/img/content/stock/54.jpg" alt="">
@@ -310,7 +310,7 @@
                             </div>
                         </div>
 
-                        <div class="cbp-item entrega">
+                        <div class="cbp-item instalacoes">
                             <div class="cbp-caption">
                                 <div class="cbp-caption-defaultWrap">
                                     <img src="assets/base/img/content/stock/59.jpg" alt="">
@@ -329,7 +329,7 @@
                             </div>
                         </div>
 
-                        <div class="cbp-item inicio">
+                        <div class="cbp-item acabamentos">
                             <div class="cbp-caption">
                                 <div class="cbp-caption-defaultWrap">
                                     <img src="assets/base/img/content/stock/55.jpg" alt="">
