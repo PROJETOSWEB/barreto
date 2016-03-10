@@ -36,7 +36,7 @@
                         </li>
 
                         <li class="c-menu-type-classic">
-                            <a href="barreto.php" class="c-link dropdown-toggle">BARRETO</a>
+                            <a href="<?php echo base_url(); ?>pages/barreto" class="c-link dropdown-toggle">BARRETO</a>
                         </li>
 
                         <!--
@@ -73,7 +73,7 @@
                             </ul>
                         </li>
                         <li class="c-menu-type-classic">
-                            <a href="contato.php" class="c-link dropdown-toggle">CONTATO</a>
+                            <a href="<?php echo base_url(); ?>pages/contato" class="c-link dropdown-toggle">CONTATO</a>
                         </li>
                         <li>
                             <a href="javascript:;" data-toggle="modal" data-target="#login-form" class="c-link"><i class="icon-user"></i></a>

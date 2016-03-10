@@ -7,9 +7,9 @@
         <meta content="" name="description"/>
         <meta content="" name="author"/>
         <link rel="shortcut icon" href="<?php echo base_url(); ?>template/assets/base/img/layout/logos/ico-barreto.png"/>
-
-        <?php include 'includes.php'; ?>
-        <title><?php echo $page_title; ?> | <?php echo $system_title; ?></title>
+        
+        <?php include 'barreto/includes.php'; ?>
+        <title><?php echo $page_title; ?> </title>
     </head>
 
 
