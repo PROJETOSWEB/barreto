@@ -1,11 +1,11 @@
 
+
 <!-- BEGIN: PAGE CONTENT -->
 <!-- BEGIN: LAYOUT/SLIDERS/REVO-SLIDER-11 -->
 <section class="c-layout-revo-slider c-layout-revo-slider-4 circle-fill">
     <div class="tp-banner-container c-theme" style="height: 620px">
         <div class="tp-banner">
             <ul>
-
 
                 <!--BEGIN: SLIDE #2 -->
                 <li data-transition="fade" data-slotamount="1" data-masterspeed="1000">
@@ -171,7 +171,7 @@
 <!-- END: CONTENT/MISC/WHY-CHOOSE-US-1 -->
 
 <!-- BEGIN: CONTENT/BARS/BAR-1 -->
-<div class="c-content-box c-size-lg c-bg-parallax" style="background-image: url(assets/base/img/content/backgrounds/fundo-cimento-azul.jpg)">
+<div class="c-content-box c-size-lg c-bg-parallax" style="background-image: url(<?php echo base_url(); ?>template/assets/base/img/content/backgrounds/fundo-cimento-azul.jpg)">
     <div class="container">
         <div class="c-content-bar-1 c-opt-1">
 
