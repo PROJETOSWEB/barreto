@@ -1,5 +1,7 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
-
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
 <!--[if !IE]><!-->
 <html lang="en">
@@ -56,7 +58,7 @@
                     </div>
                     <ul class="c-page-breadcrumbs c-theme-nav c-pull-right c-fonts-regular">
                         <li>
-                            Olá Thiago Maneschy
+                            Olá <?php echo $_SESSION['name']; ?>
                         </li>
                     </ul>
                 </div>
@@ -70,7 +72,21 @@
             <div class="c-content-box c-size-md c-bg-white">
                 <div class="container">
                     <div class="c-content-title-1">
-                        <h3 class="c-center c-font-dark c-font-uppercase"><strong>VILLA FLORESTA II</strong></h3>
+                        <h3 class="c-center c-font-dark c-font-uppercase"><strong>
+
+
+                                <?php
+                                $id = $_GET['id'];
+                                $sql_empreendimento_item = "SELECT * FROM empreendimento WHERE empreendimento_id = $id";
+                                $executa_emp = mysql_query($sql_empreendimento_item)or die(mysql_error());
+                                $row_emp = mysql_fetch_array($executa_emp);
+
+                                echo $row_emp['nome'];
+                                ?>
+
+
+
+                            </strong></h3>
                         <div class="c-line-center c-theme-bg">
                         </div>
                     </div>
@@ -93,10 +109,16 @@
                                         </p>
                                     </div>
                                 </div>
+                                <?php
+                                $id_empreendimento = $_GET['id'];
+                                $sql_item = "SELECT * FROM empreendimento WHERE empreendimento_id = $id_empreendimento ";
+                                $executa_sqlItem = mysql_query($sql_item) or die(mysql_error());
+                                $dadosEmp = mysql_fetch_array($executa_sqlItem);
+                                ?>
 
                                 <div class="col-md-8">
                                     <ul class="c-content-list-1 c-theme c-separator-dot c-square">
-                                        <img src="img/banner_adm.png" alt="" />
+                                        <img src="php/img/<?php echo $dadosEmp['banner']; ?>" width="700" height="200" alt="" />
                                     </ul>
                                 </div>
 
@@ -104,12 +126,7 @@
                         </div>
                     </div>
 
-                    <?php
-                    $id_empreendimento = $_GET['id'];
-                    $sql_item = "SELECT * FROM empreendimento WHERE empreendimento_id = $id_empreendimento ";
-                    $executa_sqlItem = mysql_query($sql_item) or die(mysql_error());
-                    $dadosEmp = mysql_fetch_array($executa_sqlItem);
-                    ?>
+
 
 
 
@@ -222,7 +239,18 @@
                             VEDAÇÃO
                             <div class="cbp-filter-counter">
                             </div>
-                        </div>                        <div data-filter=".instalacoes" class="cbp-filter-item">                            INSTALAÇÕES                            <div class="cbp-filter-counter">                            </div>                        </div>                        <div data-filter=".acabamaentos" class="cbp-filter-item">                            ACABAMENTOS                            <div class="cbp-filter-counter">                            </div>                        </div>                        
+                        </div>
+                        <div data-filter=".instalacoes" class="cbp-filter-item">
+                            INSTALAÇÕES
+                            <div class="cbp-filter-counter">
+                            </div>
+                        </div>
+                        <div data-filter=".acabamaentos" class="cbp-filter-item">
+                            ACABAMENTOS
+                            <div class="cbp-filter-counter">
+                            </div>
+                        </div>
+
 
                         <div data-filter=".videos" class="cbp-filter-item">
                             VÍDEOS
@@ -234,119 +262,37 @@
                     </div>
                     <div id="grid-container" class="cbp">
 
-                        <div class="cbp-item terraplenagem">
-                            <div class="cbp-caption">
-                                <div class="cbp-caption-defaultWrap">
-                                    <img src="assets/base/img/content/stock/60.jpg" alt="">
-                                </div>
-                                <div class="cbp-caption-activeWrap">
-                                    <div class="cbp-l-caption-alignCenter">
-                                        <div class="cbp-l-caption-body">
-                                            <a href="assets/base/img/content/stock/60.jpg" class="cbp-lightbox cbp-l-caption-buttonRight btn btn-sm c-btn-square c-btn-border-1x c-btn-white c-btn-uppercase" data-title="LEGENDA da foto">ampliar</a>
-                                            <a href="#" class=" cbp-l-caption-buttonRight btn btn-sm c-btn-square c-btn-border-1x c-btn-white c-btn-uppercase">excluir</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="cbp-l-grid-projects-desc">
-                                legenda da foto
-                            </div>
-                        </div>
+                        <?php
+                        $id = $_GET['id'];
+                        $sql_multimidia = "SELECT * FROM img_empreendimento WHERE empreendimento_id =$id ";
+                        $executa_sql_mult = mysql_query($sql_multimidia)or die(mysql_error());
 
-                        <div class="cbp-item fundacao">
-                            <div class="cbp-caption">
-                                <div class="cbp-caption-defaultWrap">
-                                    <img src="assets/base/img/content/stock/57.jpg" alt="">
-                                </div>
-                                <div class="cbp-caption-activeWrap">
-                                    <div class="cbp-l-caption-alignCenter">
-                                        <div class="cbp-l-caption-body">
-                                            <a href="assets/base/img/content/stock/57.jpg" class="cbp-lightbox cbp-l-caption-buttonRight btn btn-sm c-btn-square c-btn-border-1x c-btn-white c-btn-uppercase" data-title="by Paul Flavius Nechita">ampliar</a>
-                                            <a href="#" class=" cbp-l-caption-buttonRight btn btn-sm c-btn-square c-btn-border-1x c-btn-white c-btn-uppercase">excluir</a>
+                        while ($row_mult = mysql_fetch_array($executa_sql_mult)) {
+                            ?>
+                            <div class="cbp-item terraplenagem">
+                                <div class="cbp-caption">
+                                    <div class="cbp-caption-defaultWrap">
+                                        <img src="php/img/<?php echo $row_mult['img']; ?>" alt="">
+                                    </div>
+                                    <div class="cbp-caption-activeWrap">
+                                        <div class="cbp-l-caption-alignCenter">
+                                            <div class="cbp-l-caption-body">
+                                                <a href="php/img/<?php echo $row_mult['img']; ?>" class="cbp-lightbox cbp-l-caption-buttonRight btn btn-sm c-btn-square c-btn-border-1x c-btn-white c-btn-uppercase" data-title="LEGENDA da foto">ampliar</a>
+                                                <a href="#" class=" cbp-l-caption-buttonRight btn btn-sm c-btn-square c-btn-border-1x c-btn-white c-btn-uppercase">excluir</a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
+                                <div class="cbp-l-grid-projects-desc">
+                                    <?php echo $row_mult['legenda']; ?>
+                                </div>
                             </div>
-                            <div class="cbp-l-grid-projects-desc">
-                                legenda da foto
-                            </div>
-                        </div>
+                            <?php
+                        }
+                        ?>
 
-                        <div class="cbp-item estrutura">
-                            <div class="cbp-caption">
-                                <div class="cbp-caption-defaultWrap">
-                                    <img src="assets/base/img/content/stock/58.jpg" alt="">
-                                </div>
-                                <div class="cbp-caption-activeWrap">
-                                    <div class="cbp-l-caption-alignCenter">
-                                        <div class="cbp-l-caption-body">
-                                            <a href="assets/base/img/content/stock/58.jpg" class="cbp-lightbox cbp-l-caption-buttonRight btn btn-sm c-btn-square c-btn-border-1x c-btn-white c-btn-uppercase" data-title="by Paul Flavius Nechita">ampliar</a>
-                                            <a href="#" class=" cbp-l-caption-buttonRight btn btn-sm c-btn-square c-btn-border-1x c-btn-white c-btn-uppercase">excluir</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="cbp-l-grid-projects-desc">
-                                legenda da foto
-                            </div>
-                        </div>
 
-                        <div class="cbp-item vedacao">
-                            <div class="cbp-caption">
-                                <div class="cbp-caption-defaultWrap">
-                                    <img src="assets/base/img/content/stock/54.jpg" alt="">
-                                </div>
-                                <div class="cbp-caption-activeWrap">
-                                    <div class="cbp-l-caption-alignCenter">
-                                        <div class="cbp-l-caption-body">
-                                            <a href="assets/base/img/content/stock/54.jpg" class="cbp-lightbox cbp-l-caption-buttonRight btn btn-sm c-btn-square c-btn-border-1x c-btn-white c-btn-uppercase" data-title="by Paul Flavius Nechita">ampliar</a>
-                                            <a href="#" class=" cbp-l-caption-buttonRight btn btn-sm c-btn-square c-btn-border-1x c-btn-white c-btn-uppercase">excluir</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="cbp-l-grid-projects-desc">
-                                legenda da foto
-                            </div>
-                        </div>
 
-                        <div class="cbp-item instalacoes">
-                            <div class="cbp-caption">
-                                <div class="cbp-caption-defaultWrap">
-                                    <img src="assets/base/img/content/stock/59.jpg" alt="">
-                                </div>
-                                <div class="cbp-caption-activeWrap">
-                                    <div class="cbp-l-caption-alignCenter">
-                                        <div class="cbp-l-caption-body">
-                                            <a href="assets/base/img/content/stock/59.jpg" class="cbp-lightbox cbp-l-caption-buttonRight btn btn-sm c-btn-square c-btn-border-1x c-btn-white c-btn-uppercase" data-title="by Paul Flavius Nechita">ampliar</a>
-                                            <a href="#" class="cbp-l-caption-buttonRight btn btn-sm c-btn-square c-btn-border-1x c-btn-white c-btn-uppercase">excluir</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="cbp-l-grid-projects-desc">
-                                legenda da foto
-                            </div>
-                        </div>
-
-                        <div class="cbp-item acabamentos">
-                            <div class="cbp-caption">
-                                <div class="cbp-caption-defaultWrap">
-                                    <img src="assets/base/img/content/stock/55.jpg" alt="">
-                                </div>
-                                <div class="cbp-caption-activeWrap">
-                                    <div class="cbp-l-caption-alignCenter">
-                                        <div class="cbp-l-caption-body">
-                                            <a href="assets/base/img/content/stock/55.jpg" class="cbp-lightbox cbp-l-caption-buttonRight btn btn-sm c-btn-square c-btn-border-1x c-btn-white c-btn-uppercase" data-title="by Paul Flavius Nechita">ampliar</a>
-                                            <a href="#" class=" cbp-l-caption-buttonRight btn btn-sm c-btn-square c-btn-border-1x c-btn-white c-btn-uppercase">excluir</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="cbp-l-grid-projects-desc">
-                                legenda da foto
-                            </div>
-                        </div>
 
 
 
@@ -538,39 +484,47 @@
                 <p>
                     Adicione fotos e vídeos para todos os clientes deste empreendimento, conforme a evolução da obra
                 </p>
-                <form>
+                <form method="POST" action="php/add_multimidia.php" enctype='multipart/form-data'>
 
                     <div class="form-group">
-                        <input type="date" class="form-control input-lg c-square" id="signup-fullname" placeholder="data • 00/00/0000">
+                        <input type="date" name="date" class="form-control input-lg c-square" id="signup-fullname" placeholder="data • 00/00/0000">
                     </div>
 
                     <div class="form-group">
-                        <select class="form-control input-lg c-square" id="signup-country">
+                        <select name="category" class="form-control input-lg c-square" id="signup-country">
                             <option value="">ESCOLHA A CATEGORIA</option>
                             <option value="">• • • • • • • • • • • • •</option>
-                            <option value="1">Início das obras</option>
-                            <option value="2">Construções</option>
-                            <option value="3">Acabamentos</option>
-                            <option value="4">Entrega</option>
-                            <option value="5">VÍDEOS</option>
+
+                            <?php
+                            $sql_category = "SELECT * FROM categoria";
+                            $executa_sql_category = mysql_query($sql_category)or die(mysql_error());
+                            while ($row_category = mysql_fetch_array($executa_sql_category)) {
+                                ?>
+                                <option value="<?php echo $row_category['categoria_id']; ?>"><?php echo $row_category['nome']; ?></option>
+
+                                <?php
+                            }
+                            ?>
+
                         </select>
                     </div>
                     <hr/>
                     <div class="form-group">
                         <label for="">selecione a foto</label>
-                        <input type="file" class="form-control input-lg c-square" id="signup-email">
+                        <input type="file" name="img" class="form-control input-lg c-square" id="signup-email">
+                        <input type="hidden" name="id" value="<?php echo $_GET['id']; ?>" >
                     </div>
 
                     <div class="form-group">
-                        <input type="text" class="form-control input-lg c-square" id="signup-fullname" placeholder="legenda da foto">
+                        <input type="text" name="legenda" class="form-control input-lg c-square" id="signup-fullname" placeholder="legenda da foto">
                     </div>
                     <hr/>
                     <div class="form-group">
                         <label for="">Código do vídeo do youtube<br/>Ex: https://www.youtube.com/watch?v=<b style="color: #95C11F;">xxxxxxxxxxxxx</b></label>
-                        <input type="text" class="form-control input-lg c-square" id="signup-fullname" maxlength="13" placeholder="somente código do youtube de 13 digitos">
+                        <input type="text" name="codigo" class="form-control input-lg c-square" id="signup-fullname" maxlength="13" placeholder="somente código do youtube de 13 digitos">
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control input-lg c-square" id="signup-fullname" placeholder="legenda do vídeo">
+                        <input type="text" name="legenda_video" class="form-control input-lg c-square" id="signup-fullname" placeholder="legenda do vídeo">
                     </div>
 
                     <div class="form-group">
@@ -597,9 +551,10 @@
                 <p>
                     Altere o banner deste empreendimento
                 </p>
-                <form>
+                <form method="POST" action="php/add_banner.php" enctype='multipart/form-data'>
                     <div class="form-group">
-                        <input class="form-control c-square c-theme" type="file" aria-describedby="basic-addon2">
+                        <input class="form-control c-square c-theme" type="file" name="img" aria-describedby="basic-addon2">
+                        <input type="hidden" name="id" value="<?php echo $_GET['id']; ?>">
                     </div>
 
                     <div class="form-group">

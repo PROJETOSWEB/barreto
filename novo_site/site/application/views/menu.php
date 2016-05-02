@@ -1,3 +1,6 @@
+<link rel="stylesheet" href="template/assets/font-awesome/css/font-awesome.css">
+<link rel="stylesheet" href="template/assets/plugins/simple-line-icons/simple-line-icons.min.css"  type="text/css"/>
+
 <header class="c-layout-header c-layout-header-4 c-layout-header-default-mobile">
     <div class="c-navbar">
         <div class="container">
@@ -208,6 +211,8 @@
             <div class="modal-body">
                 <h3 class="c-font-24 c-theme-font c-font-bold">ÁREA ADMINISTRATIVA</h3>
                 <div id="resposta"></div>
+
+         
                 <form name="login" method="POST" action="#">
                     <div class="form-group">
                         <label for="login-email" class="hide">Login</label>
