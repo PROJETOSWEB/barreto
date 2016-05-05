@@ -166,7 +166,7 @@ a:active, a:hover, a:focus {
   color: #ffffff;
   background: #ABCB40;
   border-color: #ABCB40;
-}
+}.c-tit-btn.btn {  color: #ABCB40;  background: #fff;  border-color: #ABCB40;}
 .c-theme-btn.btn.btn-no-focus:focus, .c-theme-btn.btn.btn-no-focus.focus {
   color: #ffffff;
   background: #ABCB40;
